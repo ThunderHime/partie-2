@@ -1,0 +1,19 @@
+main p {
+    background-color: orange;
+}
+
+main div p {
+    background-color: yellow;
+}
+
+div {
+    background-color: lightblue;
+}
+
+div p:nth-of-type(2) {
+    margin: 40px;
+}
+
+div p:nth-of-type(3) {
+    padding: 40px;
+}

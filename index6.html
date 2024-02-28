@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style6.css">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <form>
+        <fieldset id="identite">
+            <legend>Votre identité</legend>
+            <ol>
+                <li>
+                    <label for="lastname">Nom : </label>
+                    <input type="text" name="lastname" placeholder="Dupont" id="votre-nom">
+                </li>
+                <li>
+                    <label for="votre-prenom">Prénom : </label>
+                    <input type="text" name="firstname" placeholder="Jean" id="votre-prenom">
+                </li>
+                <li>
+                    <label for="votre-adresse-mail">Adresse mail : </label>
+                    <input type="email" name=mail placeholder="kbhdbfsw@hgvd.com" id="votre-adresse-mail">
+                </li>
+            </ol>
+
+        </fieldset>
+    </form>
+    <form>
+        <fieldset id="addressDelivery">
+            <legend>Adresse de livraison</legend>
+            <ol>
+                <li>
+                    <label for="adress">Adresse : </label>
+                    <textarea id="adress" name="adress" rows="4"></textarea>
+                </li>
+                <li>
+                    <label for="postalCode">Code postal : </label>
+                    <input type="text" id="postalCode" name=postalCode placeholder="Code postal">
+                </li>
+                <li>
+                    <label for="city">Ville : </label>
+                    <input type="text" id=city name=city placeholder="Ville">
+                </li>
+            </ol>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Informations de réglement</legend>
+            <ol>
+                <li>
+                    <form>
+                        <caption>Type de carte bancaire :</caption>
+                        <br>
+                        <input type="radio" id="visaChoice" name="visaChoice" value="visa" checked/>
+                        <label for="visaChoice">Visa</label>
+                        <br>
+                        <input type="radio" id="mastercardChoice" name="visaChoice" value="masteracrd"/>
+                        <label for="mastercardChoice">Mastercard</label>
+                    </form>
+                <li>
+                    <label for="cardNumber">Numéro de carte : </label>
+                    <input id=cardNumber type="text" placeholder="Numéro de carte" inputmode="numeric">
+                </li>
+                <li>
+                    <label for="code-securite">Code de sécurité : </label>
+                    <input type="text" placeholder="Code de sécurité">
+                </li>
+                <li>
+                    <label for="nom-titulaire">Nom du titulaire : </label>
+                    <input type="text" placeholder="Nom du titulaire">
+                </li>
+            </ol>
+        </fieldset>
+    </form>
+    <button>J'achète!</button>
+</body>
+
+</html>
+
+<--required:pour savoir si c'est obligatoire de rentrer quelque chose-->
+
+git init
+git add.
+git commit -m "first commit"
